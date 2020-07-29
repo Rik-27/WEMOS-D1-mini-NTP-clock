@@ -1,5 +1,5 @@
 #include "LedControl.h"
-LedControl lc=LedControl(D4,D2,D3,4);//DIN,CLK,CS
+LedControl lc=LedControl(D4,D2,D3,4);//DIN,CLK,CS set for WEMOS D1 mini ESP8266
 #include <ESP8266WiFi.h>
 #include <NTPClient.h>
 #include <WiFiUdp.h>
